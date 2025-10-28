@@ -1,0 +1,1 @@
+ALTER TABLE `info_log` ADD `houseId` int;

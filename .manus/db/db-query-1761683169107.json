@@ -1,0 +1,16 @@
+{
+  "query": "SELECT lineId, customerName, email, createdAt FROM info_log WHERE lineId = 'u43243242' OR email = 'akekornro@gmail.com'",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4LuA33JEFhnWk1y.root --database ew6y9men95deoPucHWy5zf --execute SELECT lineId, customerName, email, createdAt FROM info_log WHERE lineId = 'u43243242' OR email = 'akekornro@gmail.com'",
+  "rows": [
+    {
+      "lineId": "u43243242",
+      "customerName": "owen",
+      "email": "akekornro@gmail.com",
+      "createdAt": "2025-10-28 17:00:00"
+    }
+  ],
+  "messages": [],
+  "stdout": "lineId\tcustomerName\temail\tcreatedAt\nu43243242\towen\takekornro@gmail.com\t2025-10-28 17:00:00\n",
+  "stderr": "",
+  "execution_time_ms": 1520
+}

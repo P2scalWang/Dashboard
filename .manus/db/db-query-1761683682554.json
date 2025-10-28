@@ -1,0 +1,9 @@
+{
+  "query": "ALTER TABLE house_members \nADD COLUMN lineId VARCHAR(100),\nADD COLUMN phoneNumber VARCHAR(20),\nADD COLUMN customerName VARCHAR(255),\nADD COLUMN email VARCHAR(320),\nADD COLUMN registrationDate DATE,\nADD COLUMN package VARCHAR(100),\nADD COLUMN packagePrice INT,\nADD COLUMN channel ENUM('line', 'facebook', 'walk-in', 'other'),\nADD COLUMN status ENUM('active', 'expired') DEFAULT 'active' NOT NULL",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4LuA33JEFhnWk1y.root --database ew6y9men95deoPucHWy5zf --execute ALTER TABLE house_members \nADD COLUMN lineId VARCHAR(100),\nADD COLUMN phoneNumber VARCHAR(20),\nADD COLUMN customerName VARCHAR(255),\nADD COLUMN email VARCHAR(320),\nADD COLUMN registrationDate DATE,\nADD COLUMN package VARCHAR(100),\nADD COLUMN packagePrice INT,\nADD COLUMN channel ENUM('line', 'facebook', 'walk-in', 'other'),\nADD COLUMN status ENUM('active', 'expired') DEFAULT 'active' NOT NULL",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 3948
+}

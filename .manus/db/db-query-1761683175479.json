@@ -1,0 +1,45 @@
+{
+  "query": "SELECT id, lineId, customerName, email, createdAt FROM info_log ORDER BY createdAt DESC LIMIT 5",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4LuA33JEFhnWk1y.root --database ew6y9men95deoPucHWy5zf --execute SELECT id, lineId, customerName, email, createdAt FROM info_log ORDER BY createdAt DESC LIMIT 5",
+  "rows": [
+    {
+      "id": "10",
+      "lineId": "U8899001122",
+      "customerName": "ปราณี ทองดี",
+      "email": "pranee.thong@example.com",
+      "createdAt": "2025-10-28 19:47:21"
+    },
+    {
+      "id": "9",
+      "lineId": "U7788990011",
+      "customerName": "กมล บุญมา",
+      "email": "kamol.boon@example.com",
+      "createdAt": "2025-10-28 19:47:20"
+    },
+    {
+      "id": "7",
+      "lineId": "U5566778899",
+      "customerName": "อนันต์ พงษ์ศักดิ์",
+      "email": "anan.pong@example.com",
+      "createdAt": "2025-10-28 19:47:20"
+    },
+    {
+      "id": "8",
+      "lineId": "U6677889900",
+      "customerName": "นิดา ศรีสุข",
+      "email": "nida.sri@example.com",
+      "createdAt": "2025-10-28 19:47:20"
+    },
+    {
+      "id": "6",
+      "lineId": "U4455667788",
+      "customerName": "สุดา ชัยชนะ",
+      "email": "suda.chai@example.com",
+      "createdAt": "2025-10-28 19:47:20"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tlineId\tcustomerName\temail\tcreatedAt\n10\tU8899001122\tปราณี ทองดี\tpranee.thong@example.com\t2025-10-28 19:47:21\n9\tU7788990011\tกมล บุญมา\tkamol.boon@example.com\t2025-10-28 19:47:20\n7\tU5566778899\tอนันต์ พงษ์ศักดิ์\tanan.pong@example.com\t2025-10-28 19:47:20\n8\tU6677889900\tนิดา ศรีสุข\tnida.sri@example.com\t2025-10-28 19:47:20\n6\tU4455667788\tสุดา ชัยชนะ\tsuda.chai@example.com\t2025-10-28 19:47:20\n",
+  "stderr": "",
+  "execution_time_ms": 1515
+}
